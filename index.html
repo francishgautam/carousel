@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./src/style.css"> -->
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="carousel">
+        <p class="title">Simple image carousel</p>
+        <p class="description">5 x Image items ❖ Carousel
+          Interactive Components & Variants</p>
+
+        <div class="frame">
+          <div class="slider">
+            <img alt="carousel-image-one" src="/carousel-image-one.jpg" class="active image">
+            <img alt="carousel-image-two" src="/carousel-image-two.jpg" class="image"> 
+            <img alt="carousel-image-three" src="/carousel-image-three.jpg" class="image">
+            <img alt="carousel-image-four" src="/carousel-image-four.jpg" class="image">
+            <img alt="carousel-image-five" src="/carousel-image-five.jpg" class="image">
+          </div>
+        </div>
+
+        <div class="control-panel">
+          <span class="left-arrow">❮</span>
+          <button class="dot"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+          <span class="right-arrow">❯</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
