@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d Vite-template"
+    "deploy": "gh-pages -d ."
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
