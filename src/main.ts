@@ -31,10 +31,9 @@ dots[0].style.backgroundColor = 'black';
 
 
 //Arrow navigation
-
-const leftArrow = document.querySelector('.left-arrow');
-const rightArrow = document.querySelector('.right-arrow');
-const slider = document.querySelector('.slider');
+const leftArrow = document.querySelector('.left-arrow') as HTMLElement | null;
+const rightArrow = document.querySelector('.right-arrow') as HTMLElement | null;
+const slider = document.querySelector('.slider') as HTMLElement | null;
 const images = document.querySelectorAll('.image');
 
 rightArrow.addEventListener('click', () => {
@@ -80,8 +79,6 @@ for(let i=3000; i< 200000; i+=3000){
   
     dotColorResetSlide();
 }, i);  
-
-
 
 }
 
